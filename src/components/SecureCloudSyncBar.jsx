@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Clock } from 'lucide-react'
 import './SecureCloudSyncBar.css'
 
 function formatTime(date) {
@@ -37,8 +38,9 @@ function SecureCloudSyncBar({ state }) {
       </div>
 
       <div className="secure-sync__right">
-        <span className="secure-sync__time" aria-label={`Current time ${timeText}`}>
+        <span className="secure-sync__time" aria-label={`Current time ${timeText}`} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           {timeText}
+          <Clock size={12} style={{ opacity: 0.7 }} />
         </span>
       </div>
     </div>

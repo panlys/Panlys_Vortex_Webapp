@@ -15,14 +15,14 @@
 }
 
 .header__title {
-  font-size: 1.05rem;
+  font-size: 0.58rem;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.92);
 }
 
 .header__subtitle {
   margin-top: 0.25rem;
-  font-size: 0.82rem;
+  font-size: 0.52rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.18em;
@@ -30,7 +30,7 @@
 
 .header__location {
   margin-top: 0.4rem;
-  font-size: 0.72rem;
+  font-size: 0.48rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.16em;
@@ -40,16 +40,18 @@
   .header {
     padding: 0.15rem 0.15rem 0;
   }
+
   .header__title {
-    font-size: 0.9rem;
+    font-size: 0.52rem;
   }
+
   .header__subtitle {
-    font-size: 0.7rem;
+    font-size: 0.46rem;
     letter-spacing: 0.14em;
   }
+
   .header__location {
-    font-size: 0.65rem;
+    font-size: 0.42rem;
     letter-spacing: 0.13em;
   }
 }
-
